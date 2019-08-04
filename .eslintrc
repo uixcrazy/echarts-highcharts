@@ -1,0 +1,16 @@
+{
+  "extends": "react-app",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "import/no-webpack-loader-syntax": "off"
+  }
+}
